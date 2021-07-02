@@ -23,14 +23,7 @@ public class WelcomeStepDefinition {
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Suraj\\Desktop\\Selenium Jar\\Chrome Driver\\chromedriver.exe");
 		
-		Map<String, Object> prefs = new HashMap<String, Object>();
-
-        prefs.put("profile.default_content_setting_values.notifications", 2);
-
-        ChromeOptions options = new ChromeOptions();
-        options.setExperimentalOption("prefs", prefs);
-		
-		driver = new ChromeDriver(options);
+		driver = new ChromeDriver();
 		
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
@@ -54,6 +47,12 @@ public class WelcomeStepDefinition {
 	public void login_button_is_visible(){
 	    boolean loginButton = driver.findElement(By.id("signInBtn")).isDisplayed();
 	    Assert.assertEquals(true, loginButton);
+	}
+	@Then("^close the browser$")
+	public void tearDown() {
+		
+		driver.close();
+		
 	}
 
 	

@@ -6,3 +6,4 @@ Given User is already on Welcome Page
 When title of login page is Yatra
 Then User clicks on login My Account dropdown
 Then login button is visible
+Then close the browser
