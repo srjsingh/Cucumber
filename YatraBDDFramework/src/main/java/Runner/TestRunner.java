@@ -9,7 +9,10 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = "C:\\Users\\Suraj\\git\\Cucumber\\YatraBDDFramework\\src\\main\\java\\Features"
 		,glue = {"stepDefinitions"}
-		,format = {"pretty","html:test-output"}
+		,format = {"pretty", "html:test-output", "json:json_output/cucumber.json", "junit:junit_xml/cucumber.xml"}
+		,strict = true
+		,monochrome = true
+		,dryRun = false
 		)
 
 public class TestRunner {

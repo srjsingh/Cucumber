@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="20.848522">
+    <testcase classname="Yatra Welcome Feature" name="Yatra Welcome Page Scenario" time="20.848522">
+        <system-out><![CDATA[Given User is already on Welcome Page.......................................passed
+When title of login page is Yatra...........................................passed
+Then User clicks on login My Account dropdown...............................passed
+Then login button is visible................................................passed
+Then close the browser......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

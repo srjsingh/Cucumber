@@ -1,0 +1,20 @@
+Cucumber options:
+
+(refer test runner file for implementation)
+
+1.dryRun : It is use to check step definition is defined
+for every step from feature file.
+
+**druRun should be always false for executing files.
+
+2. feature: It is used to define the path of feature file.
+
+3. glue: It is used defined the path of step definition file.
+
+4. tags:
+
+5. monochrome: It is used to display the console output in a proper readable format.
+
+6. format: It is used to generate different type of report 
+
+7. strict: It is used to stop execution if any definition is missing

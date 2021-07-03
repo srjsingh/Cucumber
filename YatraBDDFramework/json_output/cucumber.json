@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Yatra Welcome Page Scenario",
+        "description": "",
+        "id": "yatra-welcome-feature;yatra-welcome-page-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19206838900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is already on Welcome Page",
+            "match": {
+              "location": "WelcomeStepDefinition.user_already_on_welcome_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21087400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is Yatra",
+            "match": {
+              "location": "WelcomeStepDefinition.title_of_welcome_page_is_yatra()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 391457100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on login My Account dropdown",
+            "match": {
+              "location": "WelcomeStepDefinition.user_clicks_on_login_My_Account_dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 663867500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "login button is visible",
+            "match": {
+              "location": "WelcomeStepDefinition.login_button_is_visible()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 565270600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the browser",
+            "match": {
+              "location": "WelcomeStepDefinition.tearDown()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Yatra Welcome Feature",
+    "description": "",
+    "id": "yatra-welcome-feature",
+    "keyword": "Feature",
+    "uri": "WelcomePage.feature"
+  }
+]

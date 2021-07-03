@@ -43,35 +43,35 @@ formatter.match({
   "location": "WelcomeStepDefinition.user_already_on_welcome_page()"
 });
 formatter.result({
-  "duration": 19328994100,
+  "duration": 19206838900,
   "status": "passed"
 });
 formatter.match({
   "location": "WelcomeStepDefinition.title_of_welcome_page_is_yatra()"
 });
 formatter.result({
-  "duration": 89993500,
+  "duration": 21087400,
   "status": "passed"
 });
 formatter.match({
   "location": "WelcomeStepDefinition.user_clicks_on_login_My_Account_dropdown()"
 });
 formatter.result({
-  "duration": 422627600,
+  "duration": 391457100,
   "status": "passed"
 });
 formatter.match({
   "location": "WelcomeStepDefinition.login_button_is_visible()"
 });
 formatter.result({
-  "duration": 240375100,
-  "error_message": "java.lang.AssertionError: expected:\u003cfalse\u003e but was:\u003ctrue\u003e\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\r\n\tat org.junit.Assert.assertEquals(Assert.java:120)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat stepDefinitions.WelcomeStepDefinition.login_button_is_visible(WelcomeStepDefinition.java:49)\r\n\tat ✽.Then login button is visible(WelcomePage.feature:8)\r\n",
-  "status": "failed"
+  "duration": 663867500,
+  "status": "passed"
 });
 formatter.match({
   "location": "WelcomeStepDefinition.tearDown()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 565270600,
+  "status": "passed"
 });
 });
