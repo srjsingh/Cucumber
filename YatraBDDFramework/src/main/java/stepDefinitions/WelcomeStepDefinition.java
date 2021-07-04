@@ -12,6 +12,10 @@ import cucumber.api.java.en.When;
 
 public class WelcomeStepDefinition {
 	
+	//Reg Exp:
+	//1. \"(.*)\"
+	//2. \"(.*)\"
+	
 	WebDriver driver;
 
 	@Given("^User is already on Welcome Page$")
@@ -43,6 +47,15 @@ public class WelcomeStepDefinition {
 	public void login_button_is_visible(){
 	    boolean loginButton = driver.findElement(By.id("signInBtn")).isDisplayed();
 	    Assert.assertEquals(true, loginButton);
+	}
+	@Then("^User clicks login button$")
+	public void loginButtonClickTest() {
+		driver.findElement(By.id("signInBtn")).click();
+	}
+	// TDD using  regular expression or Examples keyword
+	@Then("^user enters \"(.*)\" in username field$")
+	public void userNameFieldTest(String username) {
+		driver.findElement(By.xpath("//input[@id='login-input']")).sendKeys(username);
 	}
 	@Then("^close the browser$")
 	public void tearDown() {
