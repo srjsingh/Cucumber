@@ -9,7 +9,10 @@ Feature: Yatra Welcome Feature
 #Then User clicks on login My Account dropdown
 #Then login button is visible
 #Then User clicks login button
-#Then user enters "srjsingh636@gmail.com" in username field
+#Then user enters "srjsingh636@gmail.com"
+#Then user clicks on cont button
+#Then user enters "Ramram@01"
+#Then user clicks on login button on login page
 #Then close the browser
 
 #Using Examples keyword
@@ -21,10 +24,13 @@ When title of login page is Yatra
 Then User clicks on login My Account dropdown
 Then login button is visible
 Then User clicks login button
-Then user enters "<username>" in username field
+Then user enters "<username>"
+Then user clicks on cont button
+Then user enters "<password>"
+Then user clicks on login button on login page
 Then close the browser
 
 Examples:
-   | username |
-   | srjsingh636@gmail.com |
-   |Tom@gmail.com |
+   | username | password |
+   | srjsingh636@gmail.com | Ramram@01 |
+   |Tom@gmail.com | Test@123 |
