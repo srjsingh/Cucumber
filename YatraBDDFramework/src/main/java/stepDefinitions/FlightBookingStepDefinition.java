@@ -1,12 +1,16 @@
 package stepDefinitions;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
+
+import javax.swing.ListCellRenderer;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import cucumber.api.DataTable;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -55,10 +59,11 @@ public class FlightBookingStepDefinition {
 		driver.findElement(By.id("signInBtn")).click();
 	}
 
-	// TDD using regular expression or Examples keyword
-	@Then("^user enters \"(.*)\"$")
-	public void userNameFieldTest(String username) {
-		driver.findElement(By.xpath("//input[@id='login-input']")).sendKeys(username);
+	@Then("user enters username$")
+	public void userNameFieldTest(DataTable username) {
+		
+		List<List<String>> data1 = username.raw();
+		driver.findElement(By.xpath("//input[@id='login-input']")).sendKeys(data1.get(0).get(0));
 	}
 
 	@Then("^user clicks on cont button$")
@@ -67,9 +72,10 @@ public class FlightBookingStepDefinition {
 
 	}
 
-	@Then("^user enters \"(.*)\"$")
-	public void passwordFieldTest(String password) {
-		driver.findElement(By.xpath("//input[@id='login-password']")).sendKeys(password);
+	@Then("user enters password$")
+	public void passwordFieldTest(DataTable password) {
+		List<List<String>> data2 = password.raw();
+		driver.findElement(By.xpath("//input[@id='login-password']")).sendKeys(data2.get(0).get(0));
 	}
 
 	@Then("^user clicks on login button on login page$")
