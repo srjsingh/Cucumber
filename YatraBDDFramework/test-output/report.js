@@ -80,44 +80,64 @@ formatter.step({
   "name": "close the browser",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "FlightBookingStepDefinition.user_already_on_welcome_page()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "FlightBookingStepDefinition.title_of_welcome_page_is_yatra()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "FlightBookingStepDefinition.user_clicks_on_login_My_Account_dropdown()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "FlightBookingStepDefinition.login_button_is_visible()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "FlightBookingStepDefinition.loginButtonClickTest()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
+});
+formatter.match({
+  "location": "FlightBookingStepDefinition.userNameFieldTest(DataTable)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "FlightBookingStepDefinition.continueButtonTest()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "FlightBookingStepDefinition.passwordFieldTest(DataTable)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "FlightBookingStepDefinition.loginButtonTest()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "FlightBookingStepDefinition.tearDown()"
+});
+formatter.result({
+  "status": "skipped"
 });
 });

@@ -12,56 +12,68 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 5,
             "name": "User is already on Welcome Page",
-            "match": {},
+            "match": {
+              "location": "FlightBookingStepDefinition.user_already_on_welcome_page()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 6,
             "name": "title of login page is Yatra",
-            "match": {},
+            "match": {
+              "location": "FlightBookingStepDefinition.title_of_welcome_page_is_yatra()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 7,
             "name": "User clicks on login My Account dropdown",
-            "match": {},
+            "match": {
+              "location": "FlightBookingStepDefinition.user_clicks_on_login_My_Account_dropdown()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 8,
             "name": "login button is visible",
-            "match": {},
+            "match": {
+              "location": "FlightBookingStepDefinition.login_button_is_visible()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 9,
             "name": "User clicks login button",
-            "match": {},
+            "match": {
+              "location": "FlightBookingStepDefinition.loginButtonClickTest()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 10,
             "name": "user enters username",
-            "match": {},
+            "match": {
+              "location": "FlightBookingStepDefinition.userNameFieldTest(DataTable)"
+            },
             "rows": [
               {
                 "cells": [
@@ -74,20 +86,24 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 12,
             "name": "user clicks on cont button",
-            "match": {},
+            "match": {
+              "location": "FlightBookingStepDefinition.continueButtonTest()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 13,
             "name": "user enters password",
-            "match": {},
+            "match": {
+              "location": "FlightBookingStepDefinition.passwordFieldTest(DataTable)"
+            },
             "rows": [
               {
                 "cells": [
@@ -100,20 +116,24 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 15,
             "name": "user clicks on login button on login page",
-            "match": {},
+            "match": {
+              "location": "FlightBookingStepDefinition.loginButtonTest()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 16,
             "name": "close the browser",
-            "match": {},
+            "match": {
+              "location": "FlightBookingStepDefinition.tearDown()"
+            },
             "keyword": "Then "
           }
         ]

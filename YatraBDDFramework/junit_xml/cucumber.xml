@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0">
     <testcase classname="Flight booking creation" name="Yatra flight booking" time="0">
-        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given User is already on Welcome Page.......................................undefined
-When title of login page is Yatra...........................................undefined
-Then User clicks on login My Account dropdown...............................undefined
-Then login button is visible................................................undefined
-Then User clicks login button...............................................undefined
-Then user enters username...................................................undefined
-Then user clicks on cont button.............................................undefined
-Then user enters password...................................................undefined
-Then user clicks on login button on login page..............................undefined
-Then close the browser......................................................undefined
-]]></failure>
+        <system-out><![CDATA[Given User is already on Welcome Page.......................................skipped
+When title of login page is Yatra...........................................skipped
+Then User clicks on login My Account dropdown...............................skipped
+Then login button is visible................................................skipped
+Then User clicks login button...............................................skipped
+Then user enters username...................................................skipped
+Then user clicks on cont button.............................................skipped
+Then user enters password...................................................skipped
+Then user clicks on login button on login page..............................skipped
+Then close the browser......................................................skipped
+]]></system-out>
     </testcase>
 </testsuite>
