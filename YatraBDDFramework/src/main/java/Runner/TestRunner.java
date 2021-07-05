@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 		,format = {"pretty", "html:test-output", "json:json_output/cucumber.json", "junit:junit_xml/cucumber.xml"}
 		,strict = true
 		,monochrome = true
-		,dryRun = false
+		,dryRun = true
 		)
 
 public class TestRunner {
