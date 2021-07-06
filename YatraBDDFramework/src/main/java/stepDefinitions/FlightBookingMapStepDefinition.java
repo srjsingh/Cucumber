@@ -1,6 +1,7 @@
 package stepDefinitions;
 
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 import org.junit.Assert;
@@ -60,8 +61,8 @@ public class FlightBookingMapStepDefinition {
 	@Then("user enters username$")
 	public void userNameFieldTest(DataTable username) {
 
-		List<List<String>> data1 = username.raw();
-		driver.findElement(By.xpath("//input[@id='login-input']")).sendKeys(data1.get(0).get(0));
+		for(Map<String, String> data1 : username.asMaps(String.class, String.class))
+		driver.findElement(By.xpath("//input[@id='login-input']")).sendKeys(data1.get("username"));
 	}
 
 	@Then("^user clicks on cont button$")
@@ -72,8 +73,11 @@ public class FlightBookingMapStepDefinition {
 
 	@Then("user enters password$")
 	public void passwordFieldTest(DataTable password) {
-		List<List<String>> data2 = password.raw();
-		driver.findElement(By.xpath("//input[@id='login-password']")).sendKeys(data2.get(0).get(0));
+		for (Map<String, String> data2 : password.asMaps(String.class, String.class)) {
+			
+			driver.findElement(By.xpath("//input[@id='login-password']")).sendKeys(data2.get("password"));
+		
+		}
 	}
 
 	@Then("^user clicks on login button on login page$")
