@@ -15,6 +15,8 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class FlightBookingMapStepDefinition {
+	
+	//data table with maps for parameterization
 
 	WebDriver driver;
 
