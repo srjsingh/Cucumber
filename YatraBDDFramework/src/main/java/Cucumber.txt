@@ -18,3 +18,12 @@ for every step from feature file.
 6. format: It is used to generate different type of report 
 
 7. strict: It is used to stop execution if any definition is missing
+
+
+***********************************************************
+ Data driven approach:
+ 
+ 1. By regular expression (refer WelcomePage file)
+ 2. By Examples (refer WelcomePage file)
+ 3. By data table using list (refer FlightBooking file)
+ 4. By data table using map (refer FlightBookingMap file)
