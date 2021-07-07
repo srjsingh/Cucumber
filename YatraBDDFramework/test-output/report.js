@@ -14,9 +14,9 @@ formatter.feature({
 });
 formatter.scenario({
   "line": 5,
-  "name": "Login with valid credentials1",
+  "name": "Login with valid credentials",
   "description": "",
-  "id": "yatra-test;login-with-valid-credentials1",
+  "id": "yatra-test;login-with-valid-credentials",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
@@ -32,18 +32,21 @@ formatter.scenario({
 });
 formatter.step({
   "line": 6,
-  "name": "This is valid login test1",
+  "name": "This is valid login test",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "TaggingStepDefinition.this_is_valid_login_test()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 608762700,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 9,
-  "name": "Login with invalid credentials2",
+  "name": "Login with invalid credentials",
   "description": "",
-  "id": "yatra-test;login-with-invalid-credentials2",
+  "id": "yatra-test;login-with-invalid-credentials",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
@@ -55,18 +58,21 @@ formatter.scenario({
 });
 formatter.step({
   "line": 10,
-  "name": "This is invalid login test2",
+  "name": "This is invalid login test",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "TaggingStepDefinition.this_is_invalid_login_test()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 78900,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 13,
-  "name": "Book a flight3",
+  "name": "Book a one way flight",
   "description": "",
-  "id": "yatra-test;book-a-flight3",
+  "id": "yatra-test;book-a-one-way-flight",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
@@ -78,18 +84,21 @@ formatter.scenario({
 });
 formatter.step({
   "line": 14,
-  "name": "Booking a flight3",
+  "name": "Booking a one way flight",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "TaggingStepDefinition.booking_a_one_way_flight()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 75600,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 17,
-  "name": "Login with valid credentials4",
+  "name": "Login with numerical usrname",
   "description": "",
-  "id": "yatra-test;login-with-valid-credentials4",
+  "id": "yatra-test;login-with-numerical-usrname",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
@@ -101,18 +110,21 @@ formatter.scenario({
 });
 formatter.step({
   "line": 18,
-  "name": "This is valid login test4",
+  "name": "This is login numerical usrname",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "TaggingStepDefinition.this_is_login_numerical_usrname()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 85300,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 21,
-  "name": "Login with invalid credentials5",
+  "name": "Login with special character",
   "description": "",
-  "id": "yatra-test;login-with-invalid-credentials5",
+  "id": "yatra-test;login-with-special-character",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
@@ -124,18 +136,21 @@ formatter.scenario({
 });
 formatter.step({
   "line": 22,
-  "name": "This is invalid login test5",
+  "name": "This is invalid login with special character",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "TaggingStepDefinition.this_is_invalid_login_with_special_character()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 99800,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 25,
-  "name": "Book a flight6",
+  "name": "Book a business class flight",
   "description": "",
-  "id": "yatra-test;book-a-flight6",
+  "id": "yatra-test;book-a-business-class-flight",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
@@ -147,18 +162,21 @@ formatter.scenario({
 });
 formatter.step({
   "line": 26,
-  "name": "Booking a flight6",
+  "name": "Booking a business class flight",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "TaggingStepDefinition.booking_a_business_class_flight()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 88700,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 29,
-  "name": "Login with valid credentials7",
+  "name": "Book a economy class flight",
   "description": "",
-  "id": "yatra-test;login-with-valid-credentials7",
+  "id": "yatra-test;book-a-economy-class-flight",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
@@ -170,18 +188,21 @@ formatter.scenario({
 });
 formatter.step({
   "line": 30,
-  "name": "This is valid login test7",
+  "name": "Booking a economy class flight",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "TaggingStepDefinition.booking_a_economy_class_flight()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 100100,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 33,
-  "name": "Login with invalid credentials8",
+  "name": "Sign up with already used data",
   "description": "",
-  "id": "yatra-test;login-with-invalid-credentials8",
+  "id": "yatra-test;sign-up-with-already-used-data",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
@@ -193,18 +214,21 @@ formatter.scenario({
 });
 formatter.step({
   "line": 34,
-  "name": "This is invalid login test8",
+  "name": "Create new account with already used data",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "TaggingStepDefinition.create_new_account_with_already_used_data()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 108800,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 37,
-  "name": "Book a flight9",
+  "name": "Sign up with invalid data",
   "description": "",
-  "id": "yatra-test;book-a-flight9",
+  "id": "yatra-test;sign-up-with-invalid-data",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
@@ -220,18 +244,21 @@ formatter.scenario({
 });
 formatter.step({
   "line": 38,
-  "name": "Booking a flight9",
+  "name": "Create new account with invalid data",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "TaggingStepDefinition.create_new_account_with_invalid_data()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 111300,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 41,
-  "name": "Login with valid credentials10",
+  "name": "Sign up with valid data",
   "description": "",
-  "id": "yatra-test;login-with-valid-credentials10",
+  "id": "yatra-test;sign-up-with-valid-data",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
@@ -247,215 +274,14 @@ formatter.scenario({
 });
 formatter.step({
   "line": 42,
-  "name": "This is valid login test10",
+  "name": "Create new account with valid data",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "TaggingStepDefinition.create_new_account_with_valid_data()"
+});
 formatter.result({
-  "status": "undefined"
-});
-formatter.scenario({
-  "line": 45,
-  "name": "Login with invalid credentials11",
-  "description": "",
-  "id": "yatra-test;login-with-invalid-credentials11",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 44,
-      "name": "@SmokeTest"
-    },
-    {
-      "line": 44,
-      "name": "@RegressionTest"
-    }
-  ]
-});
-formatter.step({
-  "line": 46,
-  "name": "This is invalid login test11",
-  "keyword": "Given "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.scenario({
-  "line": 49,
-  "name": "Book a flight12",
-  "description": "",
-  "id": "yatra-test;book-a-flight12",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 48,
-      "name": "@SmokeTest"
-    },
-    {
-      "line": 48,
-      "name": "@EndToEndTest"
-    }
-  ]
-});
-formatter.step({
-  "line": 50,
-  "name": "Booking a flight12",
-  "keyword": "Given "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.scenario({
-  "line": 53,
-  "name": "Login with valid credentials13",
-  "description": "",
-  "id": "yatra-test;login-with-valid-credentials13",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 52,
-      "name": "@SmokeTest"
-    },
-    {
-      "line": 52,
-      "name": "@EndToEndTest"
-    }
-  ]
-});
-formatter.step({
-  "line": 54,
-  "name": "This is valid login test13",
-  "keyword": "Given "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.scenario({
-  "line": 57,
-  "name": "Login with invalid credentials14",
-  "description": "",
-  "id": "yatra-test;login-with-invalid-credentials14",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 56,
-      "name": "@SmokeTest"
-    },
-    {
-      "line": 56,
-      "name": "@EndToEndTest"
-    }
-  ]
-});
-formatter.step({
-  "line": 58,
-  "name": "This is invalid login test14",
-  "keyword": "Given "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.scenario({
-  "line": 61,
-  "name": "Book a flight15",
-  "description": "",
-  "id": "yatra-test;book-a-flight15",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 60,
-      "name": "@SmokeTest"
-    },
-    {
-      "line": 60,
-      "name": "@EndToEndTest"
-    }
-  ]
-});
-formatter.step({
-  "line": 62,
-  "name": "Booking a flight15",
-  "keyword": "Given "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.scenario({
-  "line": 65,
-  "name": "Login with valid credentials16",
-  "description": "",
-  "id": "yatra-test;login-with-valid-credentials16",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 64,
-      "name": "@EndToEndTest"
-    }
-  ]
-});
-formatter.step({
-  "line": 66,
-  "name": "This is valid login test16",
-  "keyword": "Given "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.scenario({
-  "line": 69,
-  "name": "Login with invalid credentials17",
-  "description": "",
-  "id": "yatra-test;login-with-invalid-credentials17",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 68,
-      "name": "@EndToEndTest"
-    }
-  ]
-});
-formatter.step({
-  "line": 70,
-  "name": "This is invalid login test17",
-  "keyword": "Given "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.scenario({
-  "line": 73,
-  "name": "Book a flight18",
-  "description": "",
-  "id": "yatra-test;book-a-flight18",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 72,
-      "name": "@EndToEndTest"
-    }
-  ]
-});
-formatter.step({
-  "line": 74,
-  "name": "Booking a flight18",
-  "keyword": "Given "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+  "duration": 120000,
+  "status": "passed"
 });
 });

@@ -12,8 +12,8 @@ import cucumber.api.junit.Cucumber;
 		,format = {"pretty", "html:test-output", "json:json_output/cucumber.json", "junit:junit_xml/cucumber.xml"}
 		,strict = true
 		,monochrome = true
-		,dryRun = true
-		//,tags = {"@SmokeTest"} // to run specific scenarios with matching tags to skip use ~ before @
+		,dryRun = false
+		,tags = {"@SmokeTest", "@RegressionTest"} // to run specific scenarios with matching tags to skip use ~ before @
 		)
 
 public class TestRunner {

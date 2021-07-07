@@ -1,75 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="18" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="18" time="0">
-    <testcase classname="Yatra Test" name="Login with valid credentials1" time="0">
-        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given This is valid login test1.............................................undefined
-]]></failure>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="10" time="0.609632">
+    <testcase classname="Yatra Test" name="Login with valid credentials" time="0.608763">
+        <system-out><![CDATA[Given This is valid login test..............................................passed
+]]></system-out>
     </testcase>
-    <testcase classname="Yatra Test" name="Login with invalid credentials2" time="0">
-        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given This is invalid login test2...........................................undefined
-]]></failure>
+    <testcase classname="Yatra Test" name="Login with invalid credentials" time="0.000079">
+        <system-out><![CDATA[Given This is invalid login test............................................passed
+]]></system-out>
     </testcase>
-    <testcase classname="Yatra Test" name="Book a flight3" time="0">
-        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given Booking a flight3.....................................................undefined
-]]></failure>
+    <testcase classname="Yatra Test" name="Book a one way flight" time="0.000076">
+        <system-out><![CDATA[Given Booking a one way flight..............................................passed
+]]></system-out>
     </testcase>
-    <testcase classname="Yatra Test" name="Login with valid credentials4" time="0">
-        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given This is valid login test4.............................................undefined
-]]></failure>
+    <testcase classname="Yatra Test" name="Login with numerical usrname" time="0.000085">
+        <system-out><![CDATA[Given This is login numerical usrname.......................................passed
+]]></system-out>
     </testcase>
-    <testcase classname="Yatra Test" name="Login with invalid credentials5" time="0">
-        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given This is invalid login test5...........................................undefined
-]]></failure>
+    <testcase classname="Yatra Test" name="Login with special character" time="0.0001">
+        <system-out><![CDATA[Given This is invalid login with special character..........................passed
+]]></system-out>
     </testcase>
-    <testcase classname="Yatra Test" name="Book a flight6" time="0">
-        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given Booking a flight6.....................................................undefined
-]]></failure>
+    <testcase classname="Yatra Test" name="Book a business class flight" time="0.000089">
+        <system-out><![CDATA[Given Booking a business class flight.......................................passed
+]]></system-out>
     </testcase>
-    <testcase classname="Yatra Test" name="Login with valid credentials7" time="0">
-        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given This is valid login test7.............................................undefined
-]]></failure>
+    <testcase classname="Yatra Test" name="Book a economy class flight" time="0.0001">
+        <system-out><![CDATA[Given Booking a economy class flight........................................passed
+]]></system-out>
     </testcase>
-    <testcase classname="Yatra Test" name="Login with invalid credentials8" time="0">
-        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given This is invalid login test8...........................................undefined
-]]></failure>
+    <testcase classname="Yatra Test" name="Sign up with already used data" time="0.000109">
+        <system-out><![CDATA[Given Create new account with already used data.............................passed
+]]></system-out>
     </testcase>
-    <testcase classname="Yatra Test" name="Book a flight9" time="0">
-        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given Booking a flight9.....................................................undefined
-]]></failure>
+    <testcase classname="Yatra Test" name="Sign up with invalid data" time="0.000111">
+        <system-out><![CDATA[Given Create new account with invalid data..................................passed
+]]></system-out>
     </testcase>
-    <testcase classname="Yatra Test" name="Login with valid credentials10" time="0">
-        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given This is valid login test10............................................undefined
-]]></failure>
-    </testcase>
-    <testcase classname="Yatra Test" name="Login with invalid credentials11" time="0">
-        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given This is invalid login test11..........................................undefined
-]]></failure>
-    </testcase>
-    <testcase classname="Yatra Test" name="Book a flight12" time="0">
-        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given Booking a flight12....................................................undefined
-]]></failure>
-    </testcase>
-    <testcase classname="Yatra Test" name="Login with valid credentials13" time="0">
-        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given This is valid login test13............................................undefined
-]]></failure>
-    </testcase>
-    <testcase classname="Yatra Test" name="Login with invalid credentials14" time="0">
-        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given This is invalid login test14..........................................undefined
-]]></failure>
-    </testcase>
-    <testcase classname="Yatra Test" name="Book a flight15" time="0">
-        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given Booking a flight15....................................................undefined
-]]></failure>
-    </testcase>
-    <testcase classname="Yatra Test" name="Login with valid credentials16" time="0">
-        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given This is valid login test16............................................undefined
-]]></failure>
-    </testcase>
-    <testcase classname="Yatra Test" name="Login with invalid credentials17" time="0">
-        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given This is invalid login test17..........................................undefined
-]]></failure>
-    </testcase>
-    <testcase classname="Yatra Test" name="Book a flight18" time="0">
-        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given Booking a flight18....................................................undefined
-]]></failure>
+    <testcase classname="Yatra Test" name="Sign up with valid data" time="0.00012">
+        <system-out><![CDATA[Given Create new account with valid data....................................passed
+]]></system-out>
     </testcase>
 </testsuite>

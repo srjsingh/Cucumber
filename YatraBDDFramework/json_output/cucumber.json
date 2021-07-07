@@ -4,19 +4,22 @@
     "elements": [
       {
         "line": 5,
-        "name": "Login with valid credentials1",
+        "name": "Login with valid credentials",
         "description": "",
-        "id": "yatra-test;login-with-valid-credentials1",
+        "id": "yatra-test;login-with-valid-credentials",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 608762700,
+              "status": "passed"
             },
             "line": 6,
-            "name": "This is valid login test1",
-            "match": {},
+            "name": "This is valid login test",
+            "match": {
+              "location": "TaggingStepDefinition.this_is_valid_login_test()"
+            },
             "keyword": "Given "
           }
         ],
@@ -33,19 +36,22 @@
       },
       {
         "line": 9,
-        "name": "Login with invalid credentials2",
+        "name": "Login with invalid credentials",
         "description": "",
-        "id": "yatra-test;login-with-invalid-credentials2",
+        "id": "yatra-test;login-with-invalid-credentials",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 78900,
+              "status": "passed"
             },
             "line": 10,
-            "name": "This is invalid login test2",
-            "match": {},
+            "name": "This is invalid login test",
+            "match": {
+              "location": "TaggingStepDefinition.this_is_invalid_login_test()"
+            },
             "keyword": "Given "
           }
         ],
@@ -58,19 +64,22 @@
       },
       {
         "line": 13,
-        "name": "Book a flight3",
+        "name": "Book a one way flight",
         "description": "",
-        "id": "yatra-test;book-a-flight3",
+        "id": "yatra-test;book-a-one-way-flight",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 75600,
+              "status": "passed"
             },
             "line": 14,
-            "name": "Booking a flight3",
-            "match": {},
+            "name": "Booking a one way flight",
+            "match": {
+              "location": "TaggingStepDefinition.booking_a_one_way_flight()"
+            },
             "keyword": "Given "
           }
         ],
@@ -83,19 +92,22 @@
       },
       {
         "line": 17,
-        "name": "Login with valid credentials4",
+        "name": "Login with numerical usrname",
         "description": "",
-        "id": "yatra-test;login-with-valid-credentials4",
+        "id": "yatra-test;login-with-numerical-usrname",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 85300,
+              "status": "passed"
             },
             "line": 18,
-            "name": "This is valid login test4",
-            "match": {},
+            "name": "This is login numerical usrname",
+            "match": {
+              "location": "TaggingStepDefinition.this_is_login_numerical_usrname()"
+            },
             "keyword": "Given "
           }
         ],
@@ -108,19 +120,22 @@
       },
       {
         "line": 21,
-        "name": "Login with invalid credentials5",
+        "name": "Login with special character",
         "description": "",
-        "id": "yatra-test;login-with-invalid-credentials5",
+        "id": "yatra-test;login-with-special-character",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 99800,
+              "status": "passed"
             },
             "line": 22,
-            "name": "This is invalid login test5",
-            "match": {},
+            "name": "This is invalid login with special character",
+            "match": {
+              "location": "TaggingStepDefinition.this_is_invalid_login_with_special_character()"
+            },
             "keyword": "Given "
           }
         ],
@@ -133,19 +148,22 @@
       },
       {
         "line": 25,
-        "name": "Book a flight6",
+        "name": "Book a business class flight",
         "description": "",
-        "id": "yatra-test;book-a-flight6",
+        "id": "yatra-test;book-a-business-class-flight",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 88700,
+              "status": "passed"
             },
             "line": 26,
-            "name": "Booking a flight6",
-            "match": {},
+            "name": "Booking a business class flight",
+            "match": {
+              "location": "TaggingStepDefinition.booking_a_business_class_flight()"
+            },
             "keyword": "Given "
           }
         ],
@@ -158,19 +176,22 @@
       },
       {
         "line": 29,
-        "name": "Login with valid credentials7",
+        "name": "Book a economy class flight",
         "description": "",
-        "id": "yatra-test;login-with-valid-credentials7",
+        "id": "yatra-test;book-a-economy-class-flight",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 100100,
+              "status": "passed"
             },
             "line": 30,
-            "name": "This is valid login test7",
-            "match": {},
+            "name": "Booking a economy class flight",
+            "match": {
+              "location": "TaggingStepDefinition.booking_a_economy_class_flight()"
+            },
             "keyword": "Given "
           }
         ],
@@ -183,19 +204,22 @@
       },
       {
         "line": 33,
-        "name": "Login with invalid credentials8",
+        "name": "Sign up with already used data",
         "description": "",
-        "id": "yatra-test;login-with-invalid-credentials8",
+        "id": "yatra-test;sign-up-with-already-used-data",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 108800,
+              "status": "passed"
             },
             "line": 34,
-            "name": "This is invalid login test8",
-            "match": {},
+            "name": "Create new account with already used data",
+            "match": {
+              "location": "TaggingStepDefinition.create_new_account_with_already_used_data()"
+            },
             "keyword": "Given "
           }
         ],
@@ -208,19 +232,22 @@
       },
       {
         "line": 37,
-        "name": "Book a flight9",
+        "name": "Sign up with invalid data",
         "description": "",
-        "id": "yatra-test;book-a-flight9",
+        "id": "yatra-test;sign-up-with-invalid-data",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 111300,
+              "status": "passed"
             },
             "line": 38,
-            "name": "Booking a flight9",
-            "match": {},
+            "name": "Create new account with invalid data",
+            "match": {
+              "location": "TaggingStepDefinition.create_new_account_with_invalid_data()"
+            },
             "keyword": "Given "
           }
         ],
@@ -237,19 +264,22 @@
       },
       {
         "line": 41,
-        "name": "Login with valid credentials10",
+        "name": "Sign up with valid data",
         "description": "",
-        "id": "yatra-test;login-with-valid-credentials10",
+        "id": "yatra-test;sign-up-with-valid-data",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 120000,
+              "status": "passed"
             },
             "line": 42,
-            "name": "This is valid login test10",
-            "match": {},
+            "name": "Create new account with valid data",
+            "match": {
+              "location": "TaggingStepDefinition.create_new_account_with_valid_data()"
+            },
             "keyword": "Given "
           }
         ],
@@ -261,226 +291,6 @@
           {
             "line": 40,
             "name": "@RegressionTest"
-          }
-        ]
-      },
-      {
-        "line": 45,
-        "name": "Login with invalid credentials11",
-        "description": "",
-        "id": "yatra-test;login-with-invalid-credentials11",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 46,
-            "name": "This is invalid login test11",
-            "match": {},
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 44,
-            "name": "@SmokeTest"
-          },
-          {
-            "line": 44,
-            "name": "@RegressionTest"
-          }
-        ]
-      },
-      {
-        "line": 49,
-        "name": "Book a flight12",
-        "description": "",
-        "id": "yatra-test;book-a-flight12",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 50,
-            "name": "Booking a flight12",
-            "match": {},
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 48,
-            "name": "@SmokeTest"
-          },
-          {
-            "line": 48,
-            "name": "@EndToEndTest"
-          }
-        ]
-      },
-      {
-        "line": 53,
-        "name": "Login with valid credentials13",
-        "description": "",
-        "id": "yatra-test;login-with-valid-credentials13",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 54,
-            "name": "This is valid login test13",
-            "match": {},
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 52,
-            "name": "@SmokeTest"
-          },
-          {
-            "line": 52,
-            "name": "@EndToEndTest"
-          }
-        ]
-      },
-      {
-        "line": 57,
-        "name": "Login with invalid credentials14",
-        "description": "",
-        "id": "yatra-test;login-with-invalid-credentials14",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 58,
-            "name": "This is invalid login test14",
-            "match": {},
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 56,
-            "name": "@SmokeTest"
-          },
-          {
-            "line": 56,
-            "name": "@EndToEndTest"
-          }
-        ]
-      },
-      {
-        "line": 61,
-        "name": "Book a flight15",
-        "description": "",
-        "id": "yatra-test;book-a-flight15",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 62,
-            "name": "Booking a flight15",
-            "match": {},
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 60,
-            "name": "@SmokeTest"
-          },
-          {
-            "line": 60,
-            "name": "@EndToEndTest"
-          }
-        ]
-      },
-      {
-        "line": 65,
-        "name": "Login with valid credentials16",
-        "description": "",
-        "id": "yatra-test;login-with-valid-credentials16",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 66,
-            "name": "This is valid login test16",
-            "match": {},
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 64,
-            "name": "@EndToEndTest"
-          }
-        ]
-      },
-      {
-        "line": 69,
-        "name": "Login with invalid credentials17",
-        "description": "",
-        "id": "yatra-test;login-with-invalid-credentials17",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 70,
-            "name": "This is invalid login test17",
-            "match": {},
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 68,
-            "name": "@EndToEndTest"
-          }
-        ]
-      },
-      {
-        "line": 73,
-        "name": "Book a flight18",
-        "description": "",
-        "id": "yatra-test;book-a-flight18",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 74,
-            "name": "Booking a flight18",
-            "match": {},
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 72,
-            "name": "@EndToEndTest"
           }
         ]
       }
