@@ -2,73 +2,41 @@
 Feature: Yatra Test
 
 @SmokeTest @RegressionTest
-Scenario: Login with valid credentials1
-Given This is valid login test1
+Scenario: Login with valid credentials
+Given This is valid login test
 
 @RegressionTest
-Scenario: Login with invalid credentials2
-Given This is invalid login test2
+Scenario: Login with invalid credentials
+Given This is invalid login test
 
 @RegressionTest
-Scenario: Book a flight3
-Given Booking a flight3
+Scenario: Book a one way flight
+Given Booking a one way flight
 
 @SmokeTest
-Scenario: Login with valid credentials4
-Given This is valid login test4
+Scenario: Login with numerical usrname
+Given This is login numerical usrname
 
 @SmokeTest
-Scenario: Login with invalid credentials5
-Given This is invalid login test5
+Scenario: Login with special character
+Given This is invalid login with special character
 
 @RegressionTest
-Scenario: Book a flight6
-Given Booking a flight6
+Scenario: Book a business class flight
+Given Booking a business class flight
 
 @RegressionTest
-Scenario: Login with valid credentials7
-Given This is valid login test7
+Scenario: Book a economy class flight
+Given Booking a economy class flight
 
 @RegressionTest
-Scenario: Login with invalid credentials8
-Given This is invalid login test8
+Scenario: Sign up with already used data
+Given Create new account with already used data
 
 @SmokeTest @RegressionTest
-Scenario: Book a flight9
-Given Booking a flight9
+Scenario: Sign up with invalid data
+Given Create new account with invalid data
 
 @SmokeTest @RegressionTest
-Scenario: Login with valid credentials10
-Given This is valid login test10
-
-@SmokeTest @RegressionTest
-Scenario: Login with invalid credentials11
-Given This is invalid login test11
-
-@SmokeTest @EndToEndTest
-Scenario: Book a flight12
-Given Booking a flight12
-
-@SmokeTest @EndToEndTest
-Scenario: Login with valid credentials13
-Given This is valid login test13
-
-@SmokeTest @EndToEndTest
-Scenario: Login with invalid credentials14
-Given This is invalid login test14
-
-@SmokeTest @EndToEndTest
-Scenario: Book a flight15
-Given Booking a flight15
-
-@EndToEndTest
-Scenario: Login with valid credentials16
-Given This is valid login test16
-
-@EndToEndTest
-Scenario: Login with invalid credentials17
-Given This is invalid login test17
-
-@EndToEndTest
-Scenario: Book a flight18
-Given Booking a flight18
+Scenario: Sign up with valid data
+Given Create new account with valid data
