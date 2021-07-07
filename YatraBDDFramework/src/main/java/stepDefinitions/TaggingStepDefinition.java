@@ -1,4 +1,4 @@
-package stepDefinitions2;
+package stepDefinitions;
 
 public class TaggingStepDefinition {
 
