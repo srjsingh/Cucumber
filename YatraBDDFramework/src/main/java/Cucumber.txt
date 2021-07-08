@@ -11,7 +11,7 @@ for every step from feature file.
 
 3. glue: It is used defined the path of step definition file.
 
-4. tags:
+4. tags: Custom tags can be created using @ to run or ignore that specific scenario.
 
 5. monochrome: It is used to display the console output in a proper readable format.
 
