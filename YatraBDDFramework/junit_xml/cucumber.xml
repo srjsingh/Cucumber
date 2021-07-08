@@ -1,43 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="10" time="0.609632">
-    <testcase classname="Yatra Test" name="Login with valid credentials" time="0.608763">
-        <system-out><![CDATA[Given This is valid login test..............................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.641211">
+    <testcase classname="Testing hook concept" name="Testing hook feature for concept" time="0.63777">
+        <system-out><![CDATA[Given User is a valid user..................................................passed
+When User is on login page..................................................passed
+Then User enters username and password......................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Yatra Test" name="Login with invalid credentials" time="0.000079">
-        <system-out><![CDATA[Given This is invalid login test............................................passed
+    <testcase classname="Testing hook concept" name="Testing concept for multiple scenario" time="0.0018">
+        <system-out><![CDATA[Given User is logged in.....................................................passed
+When User is flight booking page............................................passed
+Then User enters flight details.............................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Yatra Test" name="Book a one way flight" time="0.000076">
-        <system-out><![CDATA[Given Booking a one way flight..............................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Yatra Test" name="Login with numerical usrname" time="0.000085">
-        <system-out><![CDATA[Given This is login numerical usrname.......................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Yatra Test" name="Login with special character" time="0.0001">
-        <system-out><![CDATA[Given This is invalid login with special character..........................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Yatra Test" name="Book a business class flight" time="0.000089">
-        <system-out><![CDATA[Given Booking a business class flight.......................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Yatra Test" name="Book a economy class flight" time="0.0001">
-        <system-out><![CDATA[Given Booking a economy class flight........................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Yatra Test" name="Sign up with already used data" time="0.000109">
-        <system-out><![CDATA[Given Create new account with already used data.............................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Yatra Test" name="Sign up with invalid data" time="0.000111">
-        <system-out><![CDATA[Given Create new account with invalid data..................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Yatra Test" name="Sign up with valid data" time="0.00012">
-        <system-out><![CDATA[Given Create new account with valid data....................................passed
+    <testcase classname="Testing hook concept" name="Testing multiple scenario" time="0.001641">
+        <system-out><![CDATA[Given User is a sign up page................................................passed
+When User enters valid iputs................................................passed
+Then User create new account................................................passed
 ]]></system-out>
     </testcase>
 </testsuite>

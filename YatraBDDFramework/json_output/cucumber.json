@@ -1,310 +1,288 @@
 [
   {
-    "line": 2,
+    "line": 1,
     "elements": [
       {
-        "line": 5,
-        "name": "Login with valid credentials",
+        "before": [
+          {
+            "result": {
+              "duration": 256900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookStepDefinition.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 363600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookStepDefinition.beforeFirst()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Testing hook feature for concept",
         "description": "",
-        "id": "yatra-test;login-with-valid-credentials",
+        "id": "testing-hook-concept;testing-hook-feature-for-concept",
+        "after": [
+          {
+            "result": {
+              "duration": 349600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 339900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookStepDefinition.afterFirst()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 608762700,
+              "duration": 635919600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is a valid user",
+            "match": {
+              "location": "hookStepDefinition.user_is_a_valid_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 270300,
               "status": "passed"
             },
             "line": 6,
-            "name": "This is valid login test",
+            "name": "User is on login page",
             "match": {
-              "location": "TaggingStepDefinition.this_is_valid_login_test()"
+              "location": "hookStepDefinition.user_is_on_login_page()"
             },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 4,
-            "name": "@SmokeTest"
+            "keyword": "When "
           },
           {
-            "line": 4,
-            "name": "@RegressionTest"
+            "result": {
+              "duration": 269800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters username and password",
+            "match": {
+              "location": "hookStepDefinition.user_enters_username_and_password()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@First"
           }
         ]
       },
       {
-        "line": 9,
-        "name": "Login with invalid credentials",
+        "before": [
+          {
+            "result": {
+              "duration": 312000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookStepDefinition.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 332100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookStepDefinition.beforeSecond()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Testing concept for multiple scenario",
         "description": "",
-        "id": "yatra-test;login-with-invalid-credentials",
+        "id": "testing-hook-concept;testing-concept-for-multiple-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 247400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 279400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookStepDefinition.afterSecond()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 78900,
+              "duration": 156000,
               "status": "passed"
             },
-            "line": 10,
-            "name": "This is invalid login test",
+            "line": 11,
+            "name": "User is logged in",
             "match": {
-              "location": "TaggingStepDefinition.this_is_invalid_login_test()"
+              "location": "hookStepDefinition.user_is_logged_in()"
             },
             "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 8,
-            "name": "@RegressionTest"
-          }
-        ]
-      },
-      {
-        "line": 13,
-        "name": "Book a one way flight",
-        "description": "",
-        "id": "yatra-test;book-a-one-way-flight",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
+          },
           {
             "result": {
-              "duration": 75600,
+              "duration": 217800,
               "status": "passed"
             },
-            "line": 14,
-            "name": "Booking a one way flight",
-            "match": {
-              "location": "TaggingStepDefinition.booking_a_one_way_flight()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
             "line": 12,
-            "name": "@RegressionTest"
+            "name": "User is flight booking page",
+            "match": {
+              "location": "hookStepDefinition.user_is_flight_booking_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 255400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters flight details",
+            "match": {
+              "location": "hookStepDefinition.user_enters_flight_details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@Second"
           }
         ]
       },
       {
-        "line": 17,
-        "name": "Login with numerical usrname",
+        "before": [
+          {
+            "result": {
+              "duration": 148800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookStepDefinition.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 328100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookStepDefinition.beforeThird()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Testing multiple scenario",
         "description": "",
-        "id": "yatra-test;login-with-numerical-usrname",
+        "id": "testing-hook-concept;testing-multiple-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 228500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 257000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookStepDefinition.afterThird()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 85300,
+              "duration": 272100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User is a sign up page",
+            "match": {
+              "location": "hookStepDefinition.user_is_a_sign_up_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 135100,
               "status": "passed"
             },
             "line": 18,
-            "name": "This is login numerical usrname",
+            "name": "User enters valid iputs",
             "match": {
-              "location": "TaggingStepDefinition.this_is_login_numerical_usrname()"
+              "location": "hookStepDefinition.user_enters_valid_iputs()"
             },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 16,
-            "name": "@SmokeTest"
-          }
-        ]
-      },
-      {
-        "line": 21,
-        "name": "Login with special character",
-        "description": "",
-        "id": "yatra-test;login-with-special-character",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 99800,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "This is invalid login with special character",
-            "match": {
-              "location": "TaggingStepDefinition.this_is_invalid_login_with_special_character()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 20,
-            "name": "@SmokeTest"
-          }
-        ]
-      },
-      {
-        "line": 25,
-        "name": "Book a business class flight",
-        "description": "",
-        "id": "yatra-test;book-a-business-class-flight",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 88700,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "Booking a business class flight",
-            "match": {
-              "location": "TaggingStepDefinition.booking_a_business_class_flight()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 24,
-            "name": "@RegressionTest"
-          }
-        ]
-      },
-      {
-        "line": 29,
-        "name": "Book a economy class flight",
-        "description": "",
-        "id": "yatra-test;book-a-economy-class-flight",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 100100,
-              "status": "passed"
-            },
-            "line": 30,
-            "name": "Booking a economy class flight",
-            "match": {
-              "location": "TaggingStepDefinition.booking_a_economy_class_flight()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 28,
-            "name": "@RegressionTest"
-          }
-        ]
-      },
-      {
-        "line": 33,
-        "name": "Sign up with already used data",
-        "description": "",
-        "id": "yatra-test;sign-up-with-already-used-data",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 108800,
-              "status": "passed"
-            },
-            "line": 34,
-            "name": "Create new account with already used data",
-            "match": {
-              "location": "TaggingStepDefinition.create_new_account_with_already_used_data()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 32,
-            "name": "@RegressionTest"
-          }
-        ]
-      },
-      {
-        "line": 37,
-        "name": "Sign up with invalid data",
-        "description": "",
-        "id": "yatra-test;sign-up-with-invalid-data",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 111300,
-              "status": "passed"
-            },
-            "line": 38,
-            "name": "Create new account with invalid data",
-            "match": {
-              "location": "TaggingStepDefinition.create_new_account_with_invalid_data()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 36,
-            "name": "@SmokeTest"
+            "keyword": "When "
           },
           {
-            "line": 36,
-            "name": "@RegressionTest"
-          }
-        ]
-      },
-      {
-        "line": 41,
-        "name": "Sign up with valid data",
-        "description": "",
-        "id": "yatra-test;sign-up-with-valid-data",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
             "result": {
-              "duration": 120000,
+              "duration": 271600,
               "status": "passed"
             },
-            "line": 42,
-            "name": "Create new account with valid data",
+            "line": 19,
+            "name": "User create new account",
             "match": {
-              "location": "TaggingStepDefinition.create_new_account_with_valid_data()"
+              "location": "hookStepDefinition.user_create_new_account()"
             },
-            "keyword": "Given "
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 40,
-            "name": "@SmokeTest"
-          },
-          {
-            "line": 40,
-            "name": "@RegressionTest"
+            "line": 15,
+            "name": "@Third"
           }
         ]
       }
     ],
-    "name": "Yatra Test",
+    "name": "Testing hook concept",
     "description": "",
-    "id": "yatra-test",
+    "id": "testing-hook-concept",
     "keyword": "Feature",
-    "uri": "C:/Users/Suraj/git/Cucumber/YatraBDDFramework/src/main/java/Features/Tagging.feature",
-    "tags": [
-      {
-        "line": 1,
-        "name": "@FunctionalTest"
-      }
-    ]
+    "uri": "C:/Users/Suraj/git/Cucumber/YatraBDDFramework/src/main/java/Features/hooks.feature"
   }
 ]
