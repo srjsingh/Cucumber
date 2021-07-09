@@ -14,7 +14,6 @@ public class WelcomeStepDefinition {
 
 	// Reg Exp:
 	// 1. \"(.*)\"
-	// 2. \"(.*)\"
 
 	WebDriver driver;
 
